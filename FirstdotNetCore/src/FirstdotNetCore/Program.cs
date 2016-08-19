@@ -10,6 +10,8 @@ namespace FirstdotNetCore
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello World from dot NET Core 1.0");
+            
+            // Checking from Org Network
         }
     }
 }
