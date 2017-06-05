@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="ILogger is the interface that holds the signatures of various logging methods required.">
+    <Position X="1.208" Y="0.5" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Log4NetLogger implements ILogger interface with Log4Net logging framework.">
+    <Position X="3.5" Y="0.5" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="LogFormatter formats the message to be logged in a required format.">
+    <Position X="7.5" Y="0.5" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="LoggerFactory provides type of ILogger which will be used for logging. In this case it provides Log4Net Logger.">
+    <Position X="5.5" Y="3.562" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Logger is the class usedat various places in the code to log the message/exception.">
+    <Position X="8.562" Y="3.25" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="LogLevel might be required during explicit formatting of the message to be logged.">
+    <Position X="1.25" Y="4.062" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="Log4Net.Logging.Log4NetLogger" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAACAAAIAALAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Logging\Log4NetLogger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Log4Net.Logging.LogFormatter">
+    <Position X="7.5" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logging\LogFormatter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Log4Net.Logging.Logger">
+    <Position X="8.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAIAAAAAAIAALAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Logging\Logger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Log4Net.Logging.LoggerFactory">
+    <Position X="5.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logging\LoggerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Log4Net.Logging.ILogger">
+    <Position X="1.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAIAALAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Logging\ILogger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Log4Net.Logging.LogLevel">
+    <Position X="1.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACBgAAAAAAAAAAAAgAAAQAAAAAAAAQABAAAAAA=</HashCode>
+      <FileName>Logging\LogLevel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
